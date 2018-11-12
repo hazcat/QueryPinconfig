@@ -1,12 +1,15 @@
 # QueryPinconfig
 Routines to describe the pin configuration of Arduino boards
 
-Outputs looks something like
+Outputs looks something like:
+
+```
 DigitalPin,Port,Bitmask,Timer
 0,4,1,0
 1,4,10,0
 2,4,100,0
 3,4,1000,8
+```
 (etc...)
 
 Formatted nicely:
