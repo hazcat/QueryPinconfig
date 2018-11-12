@@ -17,7 +17,7 @@ void dump_digital_pinconfig() {
 
   for (uint8_t digital_pin = 0; digital_pin < NUM_DIGITAL_PINS; ++digital_pin) {
     Serial.print(digital_pin);
-    Serial.print(", ");
+    Serial.print(",");
 
     uint8_t port = digitalPinToPort(digital_pin);
     if (port == NOT_A_PIN) {
