@@ -13,6 +13,7 @@ Formatted nicely:
 
 ### Arduino UNO
 DigitalPin | Port | Bitmask | Timer
+--- | --- | ---: | ---
 0 | 4 | 1 | 0
 1 | 4 | 10 | 0
 2 | 4 | 100 | 0
